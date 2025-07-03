@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6; /* Un gris claro para el fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ocupa al menos el 100% de la altura de la ventana */
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box; /* Incluye padding en el ancho/alto */
+}
+
+.container {
+    background-color: #ffffff; /* Fondo blanco para el contenedor principal */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 90%;
+    max-width: 700px; /* Ancho máximo para el contenedor */
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 35px;
+    font-size: 2.5em;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 15px;
+}
+
+.item {
+    margin-bottom: 40px;
+    border: 1px solid #e0e0e0; /* Borde sutil para cada elemento */
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fafafa; /* Fondo ligeramente diferente para cada item */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Sombra más ligera para los items */
+}
+
+.item h2 {
+    color: #007bff; /* Un azul vibrante para los títulos de los ítems */
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+.item audio {
+    width: calc(100% - 20px); /* Ancho del 100% menos un pequeño padding */
+    margin-bottom: 25px;
+    outline: none; /* Elimina el contorno al enfocar */
+}
+
+.item img {
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para las imágenes */
+    display: block; /* Para que margin auto funcione */
+    margin: 0 auto; /* Centra la imagen */
+}
